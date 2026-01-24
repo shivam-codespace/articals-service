@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      url: mongodb+srv://sharmagshivam888_db_user:bIPShzYEPuZMRDHP@cluster0.3hukpip.mongodb.net/portfolio
+      databases: portfolio
