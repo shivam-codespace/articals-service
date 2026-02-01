@@ -1,4 +1,4 @@
 spring:
     mongodb:
       uri: ${DB_URL}
-      database: portfolio
+      database: ${DB_NAME}
