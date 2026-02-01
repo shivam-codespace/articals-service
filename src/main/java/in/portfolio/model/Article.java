@@ -12,7 +12,11 @@ public class Article {
     @Id
     private String id;
 
+
+    @Indexed(unique = true)
     private String title;
+
+    @Indexed(unique = true)
     private String slug;
     private String description;
     private String githubRawUrl;
