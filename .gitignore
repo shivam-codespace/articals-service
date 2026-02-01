@@ -1,28 +1,10 @@
-### Spring Boot / Maven ###
+HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### Logs ###
-*.log
-
-### OS ###
-.DS_Store
-Thumbs.db
-
-### Environment files ###
-.env
-.env.local
-.env.dev
-.env.prod
-
-### Application configs ###
-application-local.yml
-application-dev.yml
-application-prod.yml
-
-### STS / Eclipse ###
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -32,7 +14,7 @@ application-prod.yml
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -49,6 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### Docker ###
-docker-compose.override.yml
